@@ -1,0 +1,8 @@
+bases:
+- ../../base
+commonLabels: 
+  name: $svc
+namespace: apple-ns
+
+resources:
+- externalname.yaml

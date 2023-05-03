@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: external-service-name
+  namespace: namespace-name
+spec:
+  type: ExternalName
+  externalName: the-fqdn-for-service
